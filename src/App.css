@@ -1,0 +1,36 @@
+.weatherBg{
+  background: url('https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-844297.jpg&fm=jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading{
+  color: white;
+  font-weight: bolder;
+}
+
+.weatherResultBox{
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+
+.weatherIcon{
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+}
+
+.weatherCity{
+  font-size: 35px;
+}
+
+.weatherTemp{
+  font-size: 45px;
+  font-weight: 700;
+}
+
